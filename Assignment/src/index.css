@@ -5,3 +5,11 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+#videoback{
+  background-image: url("./assets/videoback/videoback.avif");
+  background-position: center;
+  background-size: cover;
+}
+
+@keyframes scrollUpDown {  0%, 100% { transform: translateY(0); }  50% { transform: translateY(-50%); }}

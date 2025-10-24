@@ -9,6 +9,9 @@ import unithree from "./assets/university/unithree.avif";
 import unifour from "./assets/university/unifour.avif";
 import unifive from "./assets/university/unifive.avif";
 import unisix from "./assets/university/unisix.avif";
+import vidimgone from "./assets/videoimg/vidimgone.webp";
+import vidimgtwo from "./assets/videoimg/vidimgtwo.webp";
+import vidimgthree from "./assets/videoimg/vidimgthree.webp";
 import { FaUniversity, FaMap, FaCertificate, FaDownload } from "react-icons/fa";
 
 function App() {
@@ -43,7 +46,7 @@ function App() {
       </div>
 
       {/* hero */}
-      <div className="w-full flex justify-center items-center bg-white px-2 md:px-0">
+      <div className="mt-5 w-full flex justify-center items-center bg-white px-2 md:px-0">
         <div className="w-full max-w-[1450px] bg-pink-50 rounded-2xl flex flex-col-reverse md:flex-row justify-between items-center p-4 md:p-0">
           {/* first column */}
           <div className="flex-1 md:pl-10">
@@ -75,7 +78,7 @@ function App() {
       </div>
 
       {/* achievement */}
-      <div className="w-full grid place-content-center gap-10 px-2 md:px-0 mt-10">
+      <div className="mt-30 w-full grid place-content-center gap-10 px-2 md:px-0">
         <div className="flex justify-center items-center">
           <h1 className="text-3xl md:text-5xl">Students <span className="text-red-800">Achievement</span></h1>
         </div>
@@ -119,8 +122,7 @@ function App() {
       </div>
 
       {/* universities */}
-      {/* universities */}
-<div className="mt-20 w-full gap-10 px-2 md:px-0">
+<div className="mt-30 w-full gap-10 px-2 md:px-0">
   <div className="grid place-content-center gap-5 text-center">
     <p className="text-3xl md:text-5xl">Our Upskilling Program</p>
     <p className="text-3xl md:text-5xl">Offered At <span className="text-red-800">10+ Universities</span></p>
@@ -128,8 +130,8 @@ function App() {
 
   <div className="grid gap-5 md:gap-10 mt-10">
     {/* first row */}
-    <div className="flex flex-col sm:flex-row justify-center items-center gap-5">
-      <div className="flex flex-col items-start w-full sm:w-[400px]">
+    <div className="flex flex-col sm:flex-row justify-center items-center gap-10">
+      <div className="flex flex-col items-start w-full sm:w-[450px] rounded-lg hover:bg-red-100 transition-hover ease-in-out duration-500">
         <div className="h-[300px] w-full rounded-2xl overflow-hidden">
           <img src={unione} alt="Ajeenkya DY Patil University" className="w-full h-full rounded-2xl hover:scale-110 transition-transform ease-in-out duration-200 object-cover"/>
         </div>
@@ -139,7 +141,7 @@ function App() {
         <p className="inline-flex items-center gap-2"><FaMap color="gray" /> Pune</p>
       </div>
 
-      <div className="flex flex-col items-start w-full sm:w-[400px]">
+      <div className="flex flex-col items-start w-full sm:w-[450px] rounded-lg hover:bg-red-100 transition-hover ease-in-out duration-500">
         <div className="h-[300px] w-full rounded-2xl overflow-hidden">
           <img src={unisix} alt="Malla Reddy Vishwavidyapeeth" className="w-full h-full rounded-2xl hover:scale-110 transition-transform ease-in-out duration-200 object-cover"/>
         </div>
@@ -149,7 +151,7 @@ function App() {
         <p className="inline-flex items-center gap-2"><FaMap color="gray" /> Hyderabad</p>
       </div>
 
-      <div className="flex flex-col items-start w-full sm:w-[400px]">
+      <div className="flex flex-col items-start w-full sm:w-[450px] rounded-lg hover:bg-red-100 transition-hover ease-in-out duration-500">
         <div className="h-[300px] w-full rounded-2xl overflow-hidden">
           <img src={unifive} alt="Sanjay Ghodawat University" className="w-full h-full rounded-2xl hover:scale-110 transition-transform ease-in-out duration-200 object-cover"/>
         </div>
@@ -161,8 +163,8 @@ function App() {
     </div>
 
     {/* second row */}
-    <div className="flex flex-col sm:flex-row justify-center items-center gap-5">
-      <div className="flex flex-col items-start w-full sm:w-[400px]">
+    <div className="flex flex-col sm:flex-row justify-center items-center gap-10">
+      <div className="flex flex-col items-start w-full sm:w-[450px] rounded-lg hover:bg-red-100 transition-hover ease-in-out duration-500">
         <div className="h-[300px] w-full rounded-2xl overflow-hidden">
           <img src={unifour} alt="Yenepoya University" className="w-full h-full rounded-2xl hover:scale-110 transition-transform ease-in-out duration-200 object-cover"/>
         </div>
@@ -172,7 +174,7 @@ function App() {
         <p className="inline-flex items-center gap-2"><FaMap color="gray" /> Mangalore</p>
       </div>
 
-      <div className="flex flex-col items-start w-full sm:w-[400px]">
+      <div className="flex flex-col items-start w-full sm:w-[450px] rounded-lg hover:bg-red-100 transition-hover ease-in-out duration-500">
         <div className="h-[300px] w-full rounded-2xl overflow-hidden">
           <img src={unithree} alt="NRI University" className="w-full h-full rounded-2xl hover:scale-110 transition-transform ease-in-out duration-200 object-cover"/>
         </div>
@@ -182,7 +184,7 @@ function App() {
         <p className="inline-flex items-center gap-2"><FaMap color="gray" /> Vijayawada</p>
       </div>
 
-      <div className="flex flex-col items-start w-full sm:w-[400px]">
+      <div className="flex flex-col items-start w-full sm:w-[450px] rounded-lg hover:bg-red-100 transition-hover ease-in-out duration-500">
         <div className="h-[300px] w-full rounded-2xl overflow-hidden">
           <img src={unitwo} alt="Takshashila University" className="w-full h-full rounded-2xl hover:scale-110 transition-transform ease-in-out duration-200 object-cover"/>
         </div>
@@ -190,6 +192,109 @@ function App() {
           Takshashila University
         </a>
         <p className="inline-flex items-center gap-2"><FaMap color="gray" /> Chennai-Pondicherry</p>
+      </div>
+    </div>
+    {/* button */}
+      <div className="h-[50px] w-full flex justify-center items-center"><button className="h-10 w-[200px] border border-red-800 text-red-800 rounded-lg cursor-pointer">More ▼</button></div>
+  </div>
+</div>
+     {/* video */}
+<div className="mt-30 w-full grid place-content-center gap-10">
+  {/* first box */}
+  <div className="w-full bg-red-50 rounded-2xl border-0 border-red-800 grid place-content-center p-4 lg:h-[500px]">
+    {/* title */}
+    <div className="flex justify-center items-center h-auto">
+      <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center">
+        What Tech Professionals Say About{" "}
+        <span className="text-red-800">NIAT</span>
+      </p>
+    </div>
+
+    {/* videos */}
+    <div className="mt-6 flex flex-col sm:flex-row flex-wrap justify-center items-center gap-6">
+      <div className="w-full sm:w-[300px] md:w-[350px] lg:w-[450px] h-[250px] sm:h-[300px] rounded-lg">
+        <img
+          src={vidimgone}
+          alt="image"
+          className="h-full w-full rounded-lg object-cover"
+        />
+      </div>
+      <div className="w-full sm:w-[300px] md:w-[350px] lg:w-[450px] h-[250px] sm:h-[300px] rounded-lg">
+        <img
+          src={vidimgtwo}
+          alt="image"
+          className="h-full w-full rounded-lg object-cover"
+        />
+      </div>
+      <div className="w-full sm:w-[300px] md:w-[350px] lg:w-[450px] h-[250px] sm:h-[300px] rounded-lg">
+        <img
+          src={vidimgthree}
+          alt="image"
+          className="h-full w-full rounded-lg object-cover"
+        />
+      </div>
+    </div>
+  </div>
+
+  {/* second box */}
+  <div className="flex justify-center items-center w-full">
+    <div
+      id="videoback"
+      className="flex flex-col lg:flex-row justify-center items-center rounded-2xl border-0 border-red-800 h-auto lg:h-[300px] w-full lg:w-[1450px] gap-6 p-4"
+    >
+      {/* first row */}
+      <div className="bg-white rounded-lg grid place-content-center p-4 w-full lg:w-[900px] h-auto lg:h-[250px] text-center lg:text-left">
+        <div>
+          <h2 className="text-xl sm:text-2xl">
+            See What the{" "}
+            <span className="text-red-800">World is Saying</span> About NIAT
+          </h2>
+        </div>
+        <div className="mt-2">
+          <p className="font-normal">
+            From Tier 3 towns to global stages, NIAT is changing lives,
+            building careers, and earning worldwide recognition.
+          </p>
+        </div>
+        <div className="mt-6 sm:mt-8 w-full sm:w-[300px] h-10 rounded-md text-white bg-red-800 mx-auto lg:mx-0">
+          <a
+            href="https://www.niatindia.com/the_niateffect"
+            className="w-full h-full grid place-content-center"
+          >
+            Discover the NIAT Effect ⮞
+          </a>
+        </div>
+      </div>
+
+      {/* second row */}
+      <div className="w-full sm:w-[200px] md:w-[250px] h-[250px] flex justify-center items-center gap-5 overflow-hidden">
+        {/* first column */}
+        <div className="animate-[scrollUpDown_3s_ease-in-out_infinite_alternate]">
+          {Array(6)
+            .fill("NIAT")
+            .map((text, i) => (
+              <p
+                key={i}
+                className="h-[50px] w-20 bg-white radius-lg border border-black flex justify-center items-center mt-5 first:mt-0"
+              >
+                {text}
+              </p>
+            ))}
+        </div>
+
+        {/* second column */}
+        <div className="animate-[scrollUpDown_3s_ease-in-out_infinite_alternate]">
+          {Array(6)
+            .fill("NIAT")
+            .map((text, i) => (
+              <p
+                key={i}
+                className="h-[50px] w-20 bg-white radius-lg border border-black flex justify-center items-center mt-5 first:mt-0"
+              >
+                {text}
+              </p>
+            ))}
+        </div>
       </div>
     </div>
   </div>
